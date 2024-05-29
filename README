@@ -12,7 +12,7 @@ git commit -am "commit message"
 + git branching for git best practice to experiment and fix bugs:
 
 ```
-git branch <new branch name>` - to create a new branch
+git branch <new branch-name>` - to create a new branch
 git checkout to switch branches
 ```
 > Alternatively use:
@@ -23,3 +23,9 @@ git checkout -b <new branch name> - to create and switch to another branch with 
 
 ## Things I am Still Confused About 🤔
 + git pull and merging request
+
++ The -u flag on git push for creating a new upstream branch in the remote repository.
+
+```
+git push -u origin branch-name
+```
